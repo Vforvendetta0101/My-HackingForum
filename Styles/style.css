@@ -1,0 +1,157 @@
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.auth-form-container {
+    width: 500px;
+    border: 1px solid #39ff14;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.text-label {
+    color: #39ff14;
+}
+.auth-form-container .text-label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.auth-form-container .text-input, .locations {
+    height: 30px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+    border-style: none;
+}
+.locations {
+    border: 2px solid #39ff14;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.text-input placeholder {
+    color: #39ff14;
+}
+.save-label {
+    color: #39ff14;
+}
+.submit-button {
+    border: 0;
+    background-color: #39ff14;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    cursor: pointer;
+    height: 35px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.submit-button-a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+.registration-link,
+ .auth-link,
+  .reset-link{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #39ff14;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.registration-link:hover, 
+.auth-link:hover,
+.reset-link:hover{
+    text-decoration: underline;
+}
+.neo-logo {
+    width: 100%;
+}
+.neo-logo-title {
+    color: #39ff14;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form-group-sex {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.sex-label  {
+    color: #39ff14;
+}
+/* blogs styles */
+.body-container{
+    margin-top: 100px;
+    min-height: calc(100vh -70px - 60px);
+    box-sizing: border-box;
+}
+.main-category-item {
+    text-align: center;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #39ff14;
+    border: 1px solid #39ff14;
+}
+.main-category-item:hover {
+    background-color: rgb(63, 63, 63);
+}
+.main-category-item:first-child {
+    margin-left: 0;
+}
+.main-category-item:last-child {
+    margin-right: 0;
+}
+.main-category-item img {
+    width: 70px;
+    height: 50px;
+    filter: invert(73%) sepia(64%) saturate(1474%) hue-rotate(58deg) brightness(100%) contrast(113%);
+}
+.category-navigation-list {
+    border: 1px solid #39ff14;
+    flex-basis: 19.6%;
+    margin: 0;
+    padding: 25px 0 25px 40px;
+    margin-bottom: 18px;
+}
+.category-navigation-list a {
+    padding: 5px 0;
+}
+.category-name {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    color: #39ff14;
+}
+.category-name:hover {
+    text-decoration: underline;
+    color: red;
+}
+.blog-container {
+    color: #39ff14;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+    grid-column: 2 / span 3;
+}
+.blog-main-container {
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0, 1fr));
+    gap: 15px;
+    box-sizing: border-box;
+}
+/* blogs styles */  

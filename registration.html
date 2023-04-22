@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Styles/import.css">
+    <title>Matrix | Registration</title>
+</head>
+<body> 
+    <header class="header">
+     <div class="container">
+       <a href="">
+        <img class="nav-logo" src="./assets/matrix-logo.png" alt="">
+       </a>
+      <nav class="nav">
+       <div>
+        <a href="./home.html" class="nav-a hidden">მთავარი</a>
+        <a href="" class="nav-a hidden">ფორუმი</a>
+        <a href="./blog-list.html" class="nav-a hidden">ბლოგები</a>
+        <a href="./rules.html" class="nav-a hidden">წესები</a>-
+        <a href="./contact.html" class="nav-a hidden">კონტაქტი</a>  
+        </div>
+        <div>s
+            <a  class="nav-a-link" href="./registration.html">რეგისტრაცია</a>
+            <a class="nav-a-link" href="./auth.html">შესვლა</a> 
+        </div>     
+     </nav>
+     </div>
+    </header>
+    <div class="auth-form-container">
+     <div class="logo-container"> 
+       <img class="neo-logo" src="./assets/neo-matrix-matrix-neo-1155571-removebg-preview.png" alt="">
+        <h4 class="neo-logo-title">
+            Welcome To Matrix
+        </h4>
+     </div>
+     <form action="" method="get">
+      <div class="form-group">
+        <label class="text-label" for="lastName">
+         <strong>
+          ჩაწერეთ თქვენი სახელი
+         </strong>
+        </label>
+       <input class="text-input" type="text" name="firstName" id="firstName" placeholder="ჩაწერეთ სახელი" required>
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="lastName">
+         <strong>
+          ჩაწერეთ თქვენი გვარი
+         </strong>
+        </label>
+       <input class="text-input" type="text" name="lastName" id="lastName" placeholder="ჩაწერეთ გვარი" required>
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="userEmail">
+         <strong>
+          ჩაწერეთ თქვენი იმეილი
+         </strong>
+        </label>
+       <input class="text-input" type="text" name="userEmail" id="userEmail" required placeholder="ჩაწერეთ თქვენი იმეილი">
+     </div>
+      <div class="form-group">
+        <label class="text-input" for="birthDate" id="birthDate">დაბადების თარიღი</label>
+        <input class="text-input" type="date" required>
+      </div>    
+      <div class="form-group">
+        <label class="text-input" for="birthDate" id="birthDate">დაბადების ადგილი</label>
+        <select class="locations" name="" id="" required>
+            <option value="">
+                რაჟა
+            </option>
+            <option value="">
+                იმერეთი
+            </option>
+            <option value="">
+                შიდა-ქართლი
+            </option>
+            <option value="">
+                ქვემო-ქართლი
+            </option>
+            <option value="">
+                კახეთი
+            </option>
+            <option value="">
+                ხევსურეთი
+            </option>
+            <option value="">
+                სვანეთი
+            </option>
+            <option value="">
+                სამეგრელო
+            </option>
+            <option value="">
+                აფხაზეთი
+            </option>
+            <option value="">
+                გურია
+            </option>
+            <option value="">
+                სამცხე-ჯავახეთი
+            </option>
+            <option value="">
+                აჭარა
+            </option>
+        </select>
+      </div>  
+      <div class="form-group">
+        <div class="form-group-sex">
+            <input type="radio" name="sex" id="male" required>
+            <label class="sex-label" for="male">
+                კაცი
+            </label>
+        </div>
+        <div class="form-group-sex">
+            <input type="radio" name="sex" id="female" required>
+            <label class="sex-label" for="female">
+                ქალი
+            </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="password">
+         <strong>
+          ჩაწერეთ პაროლი
+         </strong>
+        </label>
+         <input class="text-input" type="text" name="password" id="password" required>
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="password">
+         <strong>
+          გაიმეორეთ პაროლი
+         </strong>
+        </label>
+         <input class="text-input" type="text" name="password" id="password" required>
+      </div>
+      <div class="form-group">
+            <input type="checkbox" id="save" name="save">
+            <label class="save-label" for="save">დამახსოვრება</label>
+        </div> 
+        
+         <button class="submit-button">
+           <a class="submit-button-a" href="../home.html"> 
+            რეგისტრაცია  
+           </a>
+        </button>   
+      
+        <a href="../auth.html" class="auth-link">უკვე გაქვთ ანგარიში?</a>
+      </div> 
+    </form>  
+    <footer class="footer">
+        <div class="container">
+            <h4 class="footer-text">
+                მოგესალმებით, მატრიცის ქართული ვერსიის ვებ გვერდზე, სადაც
+                იგეგმება ერთი მიზნის მქონე ადამიანების შეკრების ადგილად იქცეს...
+                აქ ყველა ერთმანეთს გაუზიარებს ცოდნას, მივიღებთ საჭირო რჩევებს, 
+                გამოცდილებებს, იქნება დაგეგმილი ივენთები, ჩელენჯები, დაიდება სასწავლო
+                მასალები და ასევე ჩვენს მიერ მოძიებული ინფორმაციები ასევე ვაკანსიები რომლებიც,
+                დაგვეხმარება გამოცდილების მიღებაში როგორც კიბერ უსაფრთხოებაში ასევე პროგრამირებასა
+                და ფოტოშოპში სწავლა არასდროსაა გვიანი ! :)
+            </h4>
+        </div>
+    </footer>
+</body>
+</html>

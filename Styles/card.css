@@ -1,0 +1,70 @@
+.card {
+    padding: 15px; 
+    margin-top: -16px;
+}
+.img-container {
+    position: relative;
+}
+.img-container .fav-image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(108%) contrast(101%);
+}
+.img-container .fav-image:hover {
+    filter: invert(70%) sepia(47%) saturate(2387%) hue-rotate(62deg) brightness(111%) contrast(106%);
+}
+.card  .card-image{
+    width: 100%;
+    display: block;
+}
+.img-container span {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #39ff14;
+    margin: 5px;
+    font-size: 14px;
+}
+.card h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.card .about-card{
+    margin-top: 0;
+    height: 48px;
+    overflow: hidden;
+}
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.card .share-icon {
+    width: 15px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(148deg) brightness(108%) contrast(101%);
+}
+.card .share-icon:hover {
+    filter: invert(70%) sepia(47%) saturate(2387%) hue-rotate(62deg) brightness(111%) contrast(106%);
+}
+.card .btn {
+    background-color: #39ff14;
+    font-size: 12px;
+    padding: 0 15px;
+    height: 25px;
+    border-radius: 5px;
+    color: #000;
+    border: 0;
+}
+.card-body {
+    border: 1px solid #39ff14;
+    padding: 10px 15px;
+    border-top: 0;
+}
+.view-more-button {
+    text-decoration: none;
+    color: #000;
+}

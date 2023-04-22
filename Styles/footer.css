@@ -1,0 +1,17 @@
+.footer {
+    background-color: rgba(14, 13, 13, 0.658);
+    box-sizing: border-box;
+    border-top-color: #39ff14;
+    border-top-width: 1px;
+    border-top-style: solid;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.footer .footer-text {
+    color: #39ff14;
+    padding: 20px;
+    font-size: 17px;
+    line-height: 20px;
+}
